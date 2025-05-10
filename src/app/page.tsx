@@ -1,16 +1,24 @@
 'use client';
 
-import Footer from "@/components/Footer";
+import { Header, Container, Footer } from "shared-ui";
+import SEO from "@components/SEO";
 
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-white p-6 text-center">
-        <div className="max-w-2xl w-full flex flex-col items-center">
+      <SEO
+        title="NO-CONTACT – ruční mytí a detailing"
+        description="Profesionální ruční mytí aut a detailingové služby v Ústí nad Labem. Objednejte se online nebo telefonicky."
+        url="https://www.no-contact.cz"
+        image="https://www.no-contact.cz/og-image.jpg"
+      />
+      <Header title="NO-CONTACT – ruční mytí a detailing" />
+      <main className="flex min-h-screen flex-col justify-center bg-white py-10 text-center">
+        <Container>
           <img
             src="/no_contact_logo.png"
             alt="NO-CONTACT logo"
-            className="w-48 h-auto mb-6"
+            className="w-48 h-auto mb-6 mx-auto"
           />
 
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Web ve výstavbě</h1>
@@ -56,7 +64,7 @@ export default function Home() {
               }}
             ></iframe>
           </div>
-        </div>
+        </Container>
       </main>
       <Footer />
     </>

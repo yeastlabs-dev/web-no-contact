@@ -1,15 +1,22 @@
-export default function Footer() {
+type FooterProps = {
+  className?: string;
+};
+
+export default function Footer({ className = "" }: FooterProps) {
   return (
-    <footer className="w-full border-t border-gray-200 py-4 text-center text-sm text-gray-500">
-      Built with care by{" "}
-      <a
-        href="https://yeastlabs.dev"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="text-blue-600 hover:text-blue-800 underline"
-      >
-        Yeastlabs → yeastlabs.dev
-      </a>
+    <footer className={`mt-16 border-t border-gray-200 bg-white ${className}`}>
+      <div className="max-w-6xl mx-auto px-6 py-6 text-center text-sm text-gray-500 font-medium tracking-tight font-mono">
+        Baked fresh in the lab by{" "}
+        <a
+          href="https://yeastlabs.dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-gray-700 transition"
+        >
+          Yeastlabs
+        </a>{" "}
+        🍞 © {new Date().getFullYear()}
+      </div>
     </footer>
   );
 }

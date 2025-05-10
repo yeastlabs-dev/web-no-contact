@@ -15,11 +15,11 @@
     "incremental": true,
     "baseUrl": "src",
     "paths": {
-      "@/*": ["*"],
-      "@/components/*": ["components/*"],
+      "@components/*": ["components/*"],
       "@/app/*": ["app/*"],
-      "@/lib/*": ["lib/*"],
-      "@/types/*": ["types/*"]
+      "@/types/*": ["types/*"],
+      "shared-ui": ["../shared-ui"],
+      "shared-ui/*": ["../shared-ui/components/*"]
     },
     "plugins": [
       {
