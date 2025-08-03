@@ -29,7 +29,7 @@ const Footer = () => (
           <Link href="#rezervace" scroll={false} className="text-gray-700 transition-colors duration-200 hover:text-primary">Rezervace</Link>
         </li>
         <li className="mr-6">
-          <Link href="#kontakt" scroll={false} className="text-gray-700 transition-colors duration-200 hover:text-primary">Kontakt</Link>
+          <Link href="#kde-nas-najdete" scroll={false} className="text-gray-700 transition-colors duration-200 hover:text-primary">Kontakt</Link>
         </li>
         {/* Případně další odkazy, např. GDPR/Zásady ochrany osobních údajů */}
         {/* <li>

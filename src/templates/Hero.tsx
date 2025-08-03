@@ -30,7 +30,7 @@ const Hero = () => (
           </Link>
         </li>
         <li>
-          <Link href="#kontakt" scroll={false} className="font-medium text-primary hover:text-secondary-700">
+          <Link href="#kde-nas-najdete" scroll={false} className="font-medium text-primary hover:text-secondary-700">
             Kontakt
           </Link>
         </li>
