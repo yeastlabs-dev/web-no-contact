@@ -18,7 +18,7 @@ const Reservations = () => (
       <iframe
         src="https://no-contact-s-r-o.reservio.com" // <--- ZDE JE URL Z RESERVIO! Ujistěte se, že je správná
         width="100%" // Nastavíme 100% šířku pro responzivitu
-        height="1000px" // Výška, jakou jste zadal/a (můžete upravit)
+        height="1500px" // Výška, jakou jste zadal/a (můžete upravit)
         frameBorder="0"
         className="w-full h-[1000px] border-0 rounded-lg shadow-xl" // Tailwind CSS pro responzivitu a vzhled
         // classList="w-full h-[1000px] border-0 rounded-lg shadow-xl" // Alternativa, pokud classname nefunguje pro iframe
