@@ -9,7 +9,7 @@ const ServicesAndPricing = () => (
         Naše <span className="text-primary">služby</span> & <span className="text-primary">ceník</span> {/* Tmavý text a bílý akcent */}
       </>
     }
-    description={<span className="text-gray-700">Nabízíme komplexní péči o interiér a exteriér vašeho vozu s transparentním ceníkem. Každá služba je navržena pro maximální čistotu a ochranu.</span>}
+    description={<span className="text-gray-700">Nabízíme komplexní péči o interiér a exteriér vašeho vozu. Každá služba je navržena pro maximální čistotu a ochranu.</span>}
   >
     <div className="max-w-5xl mx-auto mt-8"> {/* Větší max-w pro tabulku */}
 
